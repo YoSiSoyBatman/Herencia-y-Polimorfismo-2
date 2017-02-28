@@ -1,10 +1,4 @@
-
-/**
- * Write a description of class Circle here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import java.awt.Graphics;
 public class Circle extends Figura
 {
     private float radio;
@@ -13,5 +7,8 @@ public class Circle extends Figura
     }
     public void calcArea(){
         area=radio*radio*(float)3.1416;
+    }
+    public void dibuja(Graphics g){
+        
     }
 }

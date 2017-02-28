@@ -1,10 +1,5 @@
 
-/**
- * Write a description of class Triangle here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import java.awt.Graphics;
 public class Triangle extends Figura
 {
     private float base;
@@ -15,5 +10,8 @@ public class Triangle extends Figura
     }
     public void calcArea(){
         area=base*altura/2;
+    }
+    public void dibuja(Graphics g){
+        
     }
 }

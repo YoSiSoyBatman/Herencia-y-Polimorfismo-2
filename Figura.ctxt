@@ -1,6 +1,14 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Figura()
-comment1.params=
-comment1.target=float\ getArea()
-numComments=2
+comment1.params=x\ y
+comment1.target=Figura(int,\ int)
+comment2.params=
+comment2.target=float\ getArea()
+comment3.params=g
+comment3.target=void\ dibuja(java.awt.Graphics)
+comment4.params=
+comment4.target=int\ dimeX()
+comment5.params=
+comment5.target=int\ dimeY()
+numComments=6
