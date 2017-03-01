@@ -8,7 +8,7 @@ public class Square extends Figura
     public void calcArea(){
         area=lado*lado;
     }
-    public void dibuja(Graphics g){
+    @Override public void dibuja(Graphics g){
         
     }
 }

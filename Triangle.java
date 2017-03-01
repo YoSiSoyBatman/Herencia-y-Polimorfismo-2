@@ -11,7 +11,7 @@ public class Triangle extends Figura
     public void calcArea(){
         area=base*altura/2;
     }
-    public void dibuja(Graphics g){
+    @Override public void dibuja(Graphics g){
         
     }
 }

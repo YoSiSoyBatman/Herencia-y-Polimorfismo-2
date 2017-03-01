@@ -8,7 +8,7 @@ public class Circle extends Figura
     public void calcArea(){
         area=radio*radio*(float)3.1416;
     }
-    public void dibuja(Graphics g){
+    @Override public void dibuja(Graphics g){
         
     }
 }
